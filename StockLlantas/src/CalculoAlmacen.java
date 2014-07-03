@@ -37,7 +37,7 @@ public class CalculoAlmacen {
 	}
 	
 	public void anyadirLlantaAlmacen2(int posicion){
-		llantasAlmacen1[posicion].addLlanta();
+		llantasAlmacen2[posicion].addLlanta();
 	}
 	
 }
