@@ -1,3 +1,4 @@
+package codigo;
 
 public class CalculoAlmacen {
 	Llanta[] llantasAlmacen1=new Llanta[10];
