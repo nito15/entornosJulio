@@ -4,6 +4,7 @@ public class CalculoAlmacen {
 	Llanta[] llantasAlmacen1=new Llanta[10];
 	Llanta[] llantasAlmacen2=new Llanta[5];
 	
+
 	public CalculoAlmacen() {
 		for(int i=0;i<llantasAlmacen1.length;i++)
 		{
@@ -14,7 +15,7 @@ public class CalculoAlmacen {
 			llantasAlmacen2[i]=new Llanta();
 		}
 	}
-	
+	//Primer fallo encontrado
 	public int calcularTotalAlmacen1(){
 		int total=0;
 		for(int i=0;i<llantasAlmacen1.length;i++)
@@ -23,7 +24,7 @@ public class CalculoAlmacen {
 		}
 		return total;
 	}
-	
+	//Segundo fallo encontrado
 	public int calcularTotalAlmacen2(){
 		int total=0;
 		for(int i=0;i<llantasAlmacen2.length;i++)
